@@ -1,33 +1,92 @@
 .jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-  }
+}
   
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .jumbotron h1 {
-    font-weight: 300;
-  }
-  
-  .jumbotron .container {
-    max-width: 40rem;
-  }
-  
-  footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  
-  footer p {
-    margin-bottom: .25rem;
-  }
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.btn > i.fab, .btn > i.far, .btn > i.fas {
+  padding-right: 0.5rem;
+}
+
+.btn-steam {
+  color: #fff;
+  background-color: var(--green);
+  border-color: var(--green);
+}
+
+.btn-discord {
+  color: #fff;
+  background-color: #7289DA;
+  border-color: #7289DA;
+}
+
+.btn-donate {
+  color: #fff;
+  background-color: var(--gray);
+  border-color: var(--gray);
+}
+
+.brand-name {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.server-tags {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.server-tags > span {
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 1px 6px;
+  font-size: 60%;
+  font-weight: bold;
+  color: white;
+}
+
+.server-tags > span.sim-rf2 {
+  background-color: var(--red);
+}
+
+.server-tags > span.sim-am2 {
+  background-color: var(--blue);
+}
+
+.server-tags > span.event-track-day {
+  background-color: var(--green);
+}
+
+.card-text .table tr:first-child td {
+  border-top: 0;
+}
+
+.card-text .table td i.far, .card-text .table td i.fas {
+ padding-right: 0.5rem;
+}
